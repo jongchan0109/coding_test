@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 class Solution {
     public int solution(int[] bandage, int health, int[][] attacks) {
-        int answer = 0;
+        int answer;
         int time = 0;
         int hp = health;
         int bandTime = 0;
