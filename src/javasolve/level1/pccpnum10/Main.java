@@ -1,4 +1,4 @@
-package java_solve.level1.pccp_num10;
+package javasolve.level1.pccpnum10;
 
 import java.util.ArrayList;
 import java.util.Comparator;

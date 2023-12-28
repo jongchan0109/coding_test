@@ -1,4 +1,4 @@
-package java_solve.level1.pccp_num9;
+package javasolve.level1.pccpnum9;
 
 class Solution {
     public boolean range(int n,int h,int w){

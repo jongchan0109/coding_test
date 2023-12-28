@@ -1,4 +1,4 @@
-package java_solve.level1.pccp_num1;
+package javasolve.level1.pccpnum1;
 
 import java.util.HashMap;
 

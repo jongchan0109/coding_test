@@ -1,4 +1,4 @@
-package java_solve.level1.running_race;
+package javasolve.level1.runningrace;
 
 import java.util.HashMap;
 

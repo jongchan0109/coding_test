@@ -1,4 +1,4 @@
-package java_solve.level1.memory_score;
+package javasolve.level1.memoryscore;
 
 
 import java.util.HashMap;

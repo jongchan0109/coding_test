@@ -1,4 +1,4 @@
-package java_solve.level2.pccp_num2;
+package javasolve.level2.pccpnum2;
 
 
 import java.util.ArrayList;
