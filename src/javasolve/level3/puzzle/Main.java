@@ -56,7 +56,8 @@ class Solution {
             int maxRow = 0;
             int maxCol = 0;
 
-            for (int[] p: this.point) {
+            for (int[] p: point) {
+
                 if (minRow > p[0]) {
                     minRow = p[0];
                 }
@@ -65,19 +66,12 @@ class Solution {
                 }
 
                 if (minCol > p[1]) {
-                    System.out.println("p[1] = " + p[1]);
                     minCol = p[1];
                 }
                 if (maxCol < p[1]) {
                     maxCol = p[1];
                 }
             }
-
-            System.out.println("minRow = " + minRow +" minCol = " + minCol);
-            for (int[] p: point) {
-                System.out.println("p = " + p[0] + "," + p[1]);
-            }
-
 
             for (int[] p: point) {
                 p[0] -= minRow;
