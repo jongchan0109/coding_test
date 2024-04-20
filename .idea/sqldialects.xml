@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level1/fish/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/adopttime/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/animaldate/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/averagerental/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/birthday/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/booklist/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/caroption/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/category/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/offlinesales/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/productprice/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/repurchase/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/totalicecream/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/totalreservation/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level2/valuableprice/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/adoptmiss/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/booksales/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/favoriterestaurant/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/heavyuser/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/longtimeanimal/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/maxview/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/monthrental/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/notadoptanimal/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/orderstate/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/rental/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/rentalrecord/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/totalprice/solution.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/sqlsolve/level3/usersearch/solution.sql" dialect="GenericSQL" />
   </component>
 </project>
