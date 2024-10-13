@@ -1,39 +1,57 @@
 package boj.gold.b9935;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
-        String explosion = scanner.next();
-        scanner.close();
+    static int[] table;
 
-        int explosionLen = explosion.length();
-        char lastExplosionChar = explosion.charAt(explosionLen - 1);
-        StringBuilder result = new StringBuilder();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        for (char ch : input.toCharArray()) {
-            result.append(ch);
-            if (result.length() >= explosionLen && result.charAt(result.length() - 1) == lastExplosionChar) {
-                boolean isExplosion = true;
-                for (int i = 0; i < explosionLen; i++) {
-                    if (result.charAt(result.length() - explosionLen + i) != explosion.charAt(i)) {
-                        isExplosion = false;
+        String input = br.readLine();
+        String pattern = br.readLine();
+
+        makeTable(pattern);
+        System.out.println(removePattern(input, pattern));
+    }
+
+    private static void makeTable(String pattern) {
+        table = new int[pattern.length()];
+        int j = 0;
+
+        for (int i = 1; i < pattern.length(); i++) {
+            while (j > 0 && pattern.charAt(i) != pattern.charAt(j)) {
+                j = table[j - 1];
+            }
+            if (pattern.charAt(i) == pattern.charAt(j)) {
+                table[i] = ++j;
+            }
+        }
+    }
+
+    private static String removePattern(String parent, String pattern) {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < parent.length(); i++) {
+            sb.append(parent.charAt(i));
+
+            if (sb.length() >= pattern.length()) {
+                boolean isMatch = true;
+
+                for (int k = 0; k < pattern.length(); k++) {
+                    if (sb.charAt(sb.length() - pattern.length() + k) != pattern.charAt(k)) {
+                        isMatch = false;
                         break;
                     }
                 }
-                if (isExplosion) {
-                    result.delete(result.length() - explosionLen, result.length());
+                if (isMatch) {
+                    sb.setLength(sb.length() - pattern.length());
                 }
             }
         }
-
-        if (result.toString().isEmpty()) {
-            System.out.println("FRULA");
-        } else {
-            System.out.println(result);
-        }
+        return sb.isEmpty() ? "FRULA" : sb.toString();
     }
 }
